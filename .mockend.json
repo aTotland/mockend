@@ -7,13 +7,7 @@
 			"regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
 		},
 		"description": {
-			"string": [
-				"Extirpate matter from Head & Neck Tendon, Perc Endo",
-				"Stereotactic Gamma Beam Radiosurgery of Adrenal Glands",
-				"Occlusion R Up Lobe Bronc w Extralum Dev, Perc Endo",
-				"Repair Left Popliteal Artery, Perc Endo Approach",
-				"Excision of L Ext Carotid, Perc Approach, Diagn"
-			]
+			"loremWords": { "minLength": 5, "maxLength": 20 }
 		},
 		"id": {
 			"int": {
