@@ -15,22 +15,5 @@
 				"max": 100
 			}
 		}
-	},
-	"object": {
-		"name": {
-			"regexp": "[A-Z][a-z]{10,15}"
-		},
-		"img": {
-			"regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
-		},
-		"description": {
-			"string": {}
-		},
-		"id": {
-			"int": {
-				"min": 10,
-				"max": 100
-			}
-		}
 	}
 }
