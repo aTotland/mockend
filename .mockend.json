@@ -1,7 +1,7 @@
 {
 	"Project": {
 		"name": {
-			"string": {}
+			"regexp": "[A-Z][a-z]{5,10}"
 		},
 		"img": {
 			"regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
