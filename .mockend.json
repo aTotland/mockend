@@ -1,31 +1,25 @@
 {
-  "User": {
-    "name": {
-      "string": {}
-    },
-    "avatarUrl": {
-      "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
-    },
-    "statusMessage": {
-      "string": [
-        "working from home",
-        "watching Netflix"
-      ]
-    },
-    "email": {
-      "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
-    },
-    "color": {
-      "regexp": "#[0-9A-F]{6}"
-    },
-    "age": {
-      "int": {
-        "min": 21,
-        "max": 100
-      }
-    },
-    "isPublic": {
-      "boolean": {}
-    }
-  }
+	"Project": {
+		"name": {
+			"string": {}
+		},
+		"img": {
+			"regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
+		},
+		"description": {
+			"string": [
+				"Extirpate matter from Head & Neck Tendon, Perc Endo",
+				"Stereotactic Gamma Beam Radiosurgery of Adrenal Glands",
+				"Occlusion R Up Lobe Bronc w Extralum Dev, Perc Endo",
+				"Repair Left Popliteal Artery, Perc Endo Approach",
+				"Excision of L Ext Carotid, Perc Approach, Diagn"
+			]
+		},
+		"id": {
+			"int": {
+				"min": 10,
+				"max": 100
+			}
+		}
+	}
 }
