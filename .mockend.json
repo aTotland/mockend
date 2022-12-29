@@ -7,7 +7,7 @@
 			"regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
 		},
 		"description": {
-			"loremWords": { "minLength": 20, "maxLength": 200 }
+			"loremWords": { "minLength": 15, "maxLength": 25 }
 		},
 		"id": {
 			"int": {
